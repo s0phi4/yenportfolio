@@ -107,7 +107,7 @@ if (typeof Object.create !== "function") {
         onStateChange: function(e) {
           if (e.data === 1) {
             self.$node.addClass('loaded');
-          } else if (e.data === 0 && self.options.repeat) { 
+          } else if (e.data === 0 && self.options.repeat) {
             self.player.seekTo(self.options.start);
           }
         }
@@ -174,22 +174,22 @@ if (typeof Object.create !== "function") {
         container = self.$node;
       }
       var width = container.width(),
-        pWidth, 
+        pWidth,
         height = container.height(),
         pHeight,
         $YTPlayerPlayer = $('#' + self.holderID);
       if (width / self.options.ratio < height) {
-        pWidth = Math.ceil(height * self.options.ratio); 
+        pWidth = Math.ceil(height * self.options.ratio);
         $YTPlayerPlayer.width(pWidth).height(height).css({
           left: (width - pWidth) / 2,
           top: 0
-        }); 
-      } else { 
+        });
+      } else {
         pHeight = Math.ceil(width / self.options.ratio); // get new player height
         $YTPlayerPlayer.width(width).height(pHeight).css({
           left: 0,
           top: 0
-        }); 
+        });
       }
       $YTPlayerPlayer = null;
       container = null;
@@ -249,7 +249,7 @@ if (typeof Object.create !== "function") {
     });
   };
 })(jQuery, window, document);
- 
+
  /**
  * Single Page Nav Plugin
  * Copyright (c) 2014 Chris Wojcik <hello@chriswojcik.net>
