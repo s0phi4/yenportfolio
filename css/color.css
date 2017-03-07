@@ -4,7 +4,7 @@
 .logo-holder-dev
 	background:#191919;
 }
-.scroll-nav-holder nav li a:hover , .nav-inner nav a.curpage  , .social-item a i  , .grid-item span  ,.box-popup i ,  .text-title span , .testi-item-text a , #twitter-feed li a , .footer-contacts li a  i , .price , .contact-info ul li a i , .skills-description , .services-box h3 , .accordion-title i , .pr-list li span , .project-pagination ul li a , .post-link , .post-meta i , .search-submit , .hero-title h4 a:hover , .abl , #success_page p strong , #success_page h3 , .nav-inner nav li.subnav:hover i.subnavicon{
+.scroll-nav-holder nav li a:hover , .nav-inner nav a.curpage  , .social-item a i  , .grid-item span  , .box-popup i ,  .text-title span , .testi-item-text a , #twitter-feed li a , .footer-contacts li a  i , .price , .contact-info ul li a i , .skills-description , .services-box h3 , .accordion-title i , .pr-list li span , .project-pagination ul li a , .post-link , .post-meta i , .search-submit , .hero-title h4 a:hover , .abl , #success_page p strong , #success_page h3 , .nav-inner nav li.subnav:hover i.subnavicon{
 	color:#a3e3f7;
 }
 .loader {
@@ -37,5 +37,4 @@
 }
 .hero-title h4:before {
 	background:#a3e3f7;
-}
 }
