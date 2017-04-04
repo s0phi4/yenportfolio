@@ -701,10 +701,11 @@ header {
 	float:left;
 	top:45%;
 	z-index:16;
+
 }
 .hero-title h3 {
 	float:left;
-	color:#fff;
+	color:#a3e3f7;;
 	position:relative;
 	font-size:94px;
 	text-align:left;
@@ -1236,6 +1237,17 @@ footer {
 }
 .footer-contacts li a  i {
 	padding-right:10px;
+}
+.twitter-tags {
+  float:left;
+  width:100%;
+	color:#a3e3f7;
+	position:relative;
+	font-size:16px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+	text-align:left;
+	margin-bottom:45px;
 }
 .to-top-holder {
 	float:left;
