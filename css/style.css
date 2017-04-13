@@ -341,7 +341,7 @@ header {
 	float:left;
 	max-width:260px;
 	height:70px;
-	position:relative;
+	position:static;
 	padding:0 30px;
 	line-height:70px;
 }
